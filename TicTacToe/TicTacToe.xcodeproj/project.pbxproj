@@ -11,9 +11,9 @@
 		0D51EC9126558AE40085382C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D51EC9026558AE40085382C /* SceneDelegate.swift */; };
 		0D51EC9826558AE50085382C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D51EC9726558AE50085382C /* Assets.xcassets */; };
 		0D51EC9B26558AE50085382C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D51EC9926558AE50085382C /* LaunchScreen.storyboard */; };
-		0D51ECA526558C570085382C /* PlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D51ECA426558C570085382C /* PlaceHolder.swift */; };
-		0D51ECAE26558C900085382C /* PlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D51ECAD26558C900085382C /* PlaceHolder.swift */; };
-		0D51ECB026558CA10085382C /* PlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D51ECAF26558CA10085382C /* PlaceHolder.swift */; };
+		0D51ECA526558C570085382C /* helperPlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D51ECA426558C570085382C /* helperPlaceHolder.swift */; };
+		0D51ECAE26558C900085382C /* customPlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D51ECAD26558C900085382C /* customPlaceHolder.swift */; };
+		0D51ECB026558CA10085382C /* modelPlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D51ECAF26558CA10085382C /* modelPlaceHolder.swift */; };
 		0D51ECB226558CAA0085382C /* PlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D51ECB126558CAA0085382C /* PlaceHolder.swift */; };
 		C0B0CA8F265591DA00A8101A /* Jantsen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B0CA8E265591DA00A8101A /* Jantsen.storyboard */; };
 		C0B0CA91265599E300A8101A /* TicTacToe1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B0CA90265599E300A8101A /* TicTacToe1ViewController.swift */; };
@@ -26,9 +26,9 @@
 		0D51EC9726558AE50085382C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D51EC9A26558AE50085382C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D51EC9C26558AE50085382C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D51ECA426558C570085382C /* PlaceHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolder.swift; sourceTree = "<group>"; };
-		0D51ECAD26558C900085382C /* PlaceHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolder.swift; sourceTree = "<group>"; };
-		0D51ECAF26558CA10085382C /* PlaceHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolder.swift; sourceTree = "<group>"; };
+		0D51ECA426558C570085382C /* helperPlaceHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helperPlaceHolder.swift; sourceTree = "<group>"; };
+		0D51ECAD26558C900085382C /* customPlaceHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customPlaceHolder.swift; sourceTree = "<group>"; };
+		0D51ECAF26558CA10085382C /* modelPlaceHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelPlaceHolder.swift; sourceTree = "<group>"; };
 		0D51ECB126558CAA0085382C /* PlaceHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolder.swift; sourceTree = "<group>"; };
 		C0B0CA8E265591DA00A8101A /* Jantsen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Jantsen.storyboard; sourceTree = "<group>"; };
 		C0B0CA90265599E300A8101A /* TicTacToe1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe1ViewController.swift; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		0D51ECA326558C3E0085382C /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				0D51ECA426558C570085382C /* PlaceHolder.swift */,
+				0D51ECA426558C570085382C /* helperPlaceHolder.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -130,7 +130,7 @@
 		0D51ECAA26558C710085382C /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
-				0D51ECAF26558CA10085382C /* PlaceHolder.swift */,
+				0D51ECAF26558CA10085382C /* modelPlaceHolder.swift */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -146,7 +146,7 @@
 		0D51ECAC26558C7E0085382C /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				0D51ECAD26558C900085382C /* PlaceHolder.swift */,
+				0D51ECAD26558C900085382C /* customPlaceHolder.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -225,9 +225,9 @@
 				0D51ECB226558CAA0085382C /* PlaceHolder.swift in Sources */,
 				0D51EC8F26558AE40085382C /* AppDelegate.swift in Sources */,
 				0D51EC9126558AE40085382C /* SceneDelegate.swift in Sources */,
-				0D51ECAE26558C900085382C /* PlaceHolder.swift in Sources */,
-				0D51ECA526558C570085382C /* PlaceHolder.swift in Sources */,
-				0D51ECB026558CA10085382C /* PlaceHolder.swift in Sources */,
+				0D51ECAE26558C900085382C /* customPlaceHolder.swift in Sources */,
+				0D51ECA526558C570085382C /* helperPlaceHolder.swift in Sources */,
+				0D51ECB026558CA10085382C /* modelPlaceHolder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
